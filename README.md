@@ -49,50 +49,6 @@ This project is a full-stack e-commerce application with a React frontend and No
 <img width="377" height="642" alt="image" src="https://github.com/user-attachments/assets/567c3b74-a38c-408a-abe6-062bc694440c" />
 
 
-/stripePayment
-├── /client                          # Frontend application
-│   ├── /public                      # Static assets
-│   │   └── vite.svg                 # Vite logo
-│   ├── /src
-│   │   ├── /assets                  # Static images
-│   │   │   └── react.svg            # React logo
-│   │   ├── /checkout                # Checkout components
-│   │   │   └── Checkout.jsx         # Main checkout page
-│   │   ├── /components              # Reusable components
-│   │   │   ├── Cancel.jsx           # Payment cancellation page
-│   │   │   ├── Cart.jsx             # Shopping cart display
-│   │   │   ├── Header.jsx           # Navigation header
-│   │   │   └── ProductDisplay.jsx   # Product listing
-│   │   │   └── Success.jsx          # Payment success page
-│   │   ├── /context                 # React Context
-│   │   │   └── CartContext.jsx      # Cart state management
-│   │   ├── App.css                  # Global styles
-│   │   ├── App.jsx                  # Main App component
-│   │   └── main.jsx                 # Entry point
-│   ├── .gitignore                   # Git ignore file
-│   ├── eslint.config.js             # ESLint configuration
-│   ├── index.html                   # HTML entry
-│   ├── package.json                 # Dependencies
-│   ├── package-lock.json            # Lock file
-│   ├── README.md                    # Client README
-│   └── vite.config.js               # Vite configuration
-├── /server                          # Backend application
-│   ├── /config                      # Configuration files
-│   │   └── db.js                    # Database connection
-│   ├── /controllers                 # Request handlers
-│   │   └── orderController.js       # Order and payment operations
-│   ├── /middlewares                 # Custom middleware
-│   │   └── stripeRawBody.js         # Raw body parser for Stripe webhooks
-│   ├── /models                      # Database models
-│   │   └── orderModel.js            # Order schema
-│   ├── /routes                      # API routes
-│   │   └── orderRoute.js            # Order endpoints
-│   ├── .env                         # Environment variables
-│   ├── .gitignore                   # Git ignore file
-│   ├── package.json                 # Dependencies
-│   ├── package-lock.json            # Lock file
-│   └── server.js                    # Server entry point
-└── README.md                        # Project documentation
 
 ## 🔧 Installation & Setup
 
