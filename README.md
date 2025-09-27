@@ -46,6 +46,8 @@ This project is a full-stack e-commerce application with a React frontend and No
 - CORS - Cross-origin resource sharing
 
 ## 📁 Project Structure
+<img width="377" height="642" alt="image" src="https://github.com/user-attachments/assets/567c3b74-a38c-408a-abe6-062bc694440c" />
+
 
 /stripePayment
 ├── /client                          # Frontend application
@@ -118,12 +120,12 @@ npm install
 Create a `.env` file with the following variables:
 
 ```
+STRIPE_SECRET_KEY=sk_test_51RWcKhP4psnxWBCGqz47J9fNvL0q9h3SuvLCs3UElvP4EuFGFmW5I5T8TNxAp59uc75NoaW11CstDw8xI2WtNcLl00NFVUmVPg
+STRIPE_WEBHOOK_SECRET=whsec_BBvBvLKwQD8X51jtay1t6QxiKgBaRcrX
 PORT=7000
-MONGODB_URI=mongodb://localhost:27017/stripepayment
-STRIPE_SECRET_KEY=your_stripe_secret_key
-STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
-FRONTEND_URL=http://localhost:5173
-NODE_ENV=development
+FRONTEND_URL="http://localhost:5173"
+MONGODB_URL="mongodb+srv://codebybhanu:codebybhanu@cluster0.fylwql2.mongodb.net"
+
 ```
 
 Start the server:
